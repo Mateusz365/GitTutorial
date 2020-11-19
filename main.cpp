@@ -2,11 +2,16 @@
 
 using namespace std;
 
+string imie,nazwisko;
+
 int main(){
-    cout<<"Hello world2";
-    int a;
-    cin>>a;
-    cout<<"Podales liczbe "<<a;
+    cout<<"Jak masz na imie: ";
+    cin>>imie;
+    cout<<"Jak masz na nazwisko: ";
+    cin>>nazwisko;
+    cout <<"Dzien dobry: "<<imie<<" "<<nazwisko<<endl;
+
+
 
     return 0;
 }
