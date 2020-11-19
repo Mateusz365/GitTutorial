@@ -3,13 +3,17 @@
 using namespace std;
 
 string imie,nazwisko;
+int wiek;
 
 int main(){
+    system("cls");
     cout<<"Jak masz na imie: ";
     cin>>imie;
     cout<<"Jak masz na nazwisko: ";
     cin>>nazwisko;
-    cout <<"Dzien dobry: "<<imie<<" "<<nazwisko<<endl;
+    cout<<"Ile masz lat: ";
+    cin>>wiek;
+    cout <<"Dzien dobry: "<<imie<<" "<<nazwisko<<" masz "<<wiek<<" lat"<<endl;
 
 
 
